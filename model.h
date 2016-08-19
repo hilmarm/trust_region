@@ -17,7 +17,10 @@ private:
     QList<double> fvalues_;
     Eigen::VectorXd center_;
     double radius_;
+    // Monomial basis of model, usually quadratic
     QList<Polynomial> basis_;
+    // The coefficients of the model using basis
+    Eigen::VectorXd model_coeffs_;
     // Private methods/sub-methods
     Eigen::VectorXd find_new_point(Polynomial poly) const;
 
@@ -28,12 +31,20 @@ public:
     QList<double> get_fvalues() const;
     double get_radius() const;
     QList<Polynomial> get_basis() const;
+    Eigen::VectorXd get_model_coeffs() const;
 
     /* Complete set of interpolation points
      * using Algorithm 5 as described in paper
      * by C. Giuliani
      */
     void complete_points();
+
+    /* Calculate coefficients of quadratic model
+     * of the trust region using a complete and
+     * well poised set of points
+     */
+
+    void calculate_model_coeffs();
 
 };
 

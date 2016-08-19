@@ -28,9 +28,20 @@ QList<Polynomial> Model::get_basis() const{
     return basis_;
 }
 
+Eigen::VectorXd Model::get_model_coeffs() const {
+    return model_coeffs_;
+}
+
 void Model::complete_points() {
     // Complete set of interpolation points so
     // that the set is well-poised
+
+    /* Pivot element tolerance. Note that we can always find
+     * an element inside the ball of radius one so that the
+     * value is at least 0.25. It might however be clever to
+     * lower this tolerance in order to preserve as many stored
+     * function evaluations as possible.
+     */
     double tol_pivot = 0.24;
     Eigen::VectorXd centre_point = points_.at(0);
 
@@ -185,5 +196,11 @@ Eigen::VectorXd Model::find_new_point(Polynomial poly) const {
 
     return best_point;
 }
+
+void Model::calculate_model_coeffs() {
+    
+
+}
+
 
 
