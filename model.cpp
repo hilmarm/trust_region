@@ -83,9 +83,12 @@ void Model::complete_points() {
             }
         }
 
-        // If evaluation in pivot element is greater than treshold, switch elements.
+        /* If evaluation in pivot element is greater than treshold, switch elements
+         * and its associated function evaluations
+         */
         if(max_abs>tol_pivot){
             points_abs.swap(i,max_abs_ind);
+            fvalues_.swap(i,max_abs_ind);
             std::cout << "YES sufficent pivot element aka. good point" << std::endl;
         }
         else{
@@ -95,6 +98,10 @@ void Model::complete_points() {
             //std::cout << find_new_point(temp_poly_here) << std::endl;
             points_abs.append(find_new_point(temp_poly_here));
             points_abs.swap(i,points_abs.length()-1);
+            // TODO: Here we need to evaluate the function of the new point and append it!
+            fvalues_.append(-1);
+            fvalues_.swap(i,points_abs.length()-1);
+
             std::cout << "new point found with value = " << temp_poly_here.evaluate(points_abs.at(i)) << std::endl;
         }
 
@@ -198,8 +205,9 @@ Eigen::VectorXd Model::find_new_point(Polynomial poly) const {
 }
 
 void Model::calculate_model_coeffs() {
-    
-
+    Eigen::MatrixXd M = Eigen::MatrixXd::Zero(basis_.length(),basis_.length());
+    Eigen::VectorXd y;
+    get_fvalues(); // Consider storing as eigen vector
 }
 
 
