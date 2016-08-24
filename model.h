@@ -17,6 +17,7 @@ private:
     QList<double> fvalues_;
     Eigen::VectorXd center_;
     double radius_;
+    int dimension_;
     // Monomial basis of model, usually quadratic
     QList<Polynomial> basis_;
     // The coefficients of the model using basis
@@ -26,7 +27,7 @@ private:
 
 
 public:
-    Model(QList<Eigen::VectorXd> points, QList<double> fvalues, double radius, QList<Polynomial> basis);
+    Model(QList<Eigen::VectorXd> points, QList<double> fvalues, double radius, int dimension);
     QList<Eigen::VectorXd> get_points() const;
     QList<double> get_fvalues() const;
     double get_radius() const;

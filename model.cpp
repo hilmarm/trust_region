@@ -4,12 +4,21 @@
 
 #include "model.h"
 
-Model::Model(QList<Eigen::VectorXd> points, QList<double> fvalues, double radius, QList<Polynomial> basis){
+Model::Model(QList<Eigen::VectorXd> points, QList<double> fvalues, double radius, int dimension){
     points_ = points;
     fvalues_ = fvalues;
     center_ = points.at(0);
     radius_ = radius;
+    dimension_ = dimension;
+    QList<Polynomial> basis;
+    for (int i = 0; i < (dimension+1)*(dimension+2)/2; ++i) {
+        Eigen::VectorXd temp_vec = Eigen::VectorXd::Zero((dimension+1)*(dimension+2)/2);
+        temp_vec(i) = 1;
+        Polynomial temp_poly = Polynomial(dimension, temp_vec);
+        basis.append(temp_poly);
+    }
     basis_ = basis;
+
 }
 
 QList<Eigen::VectorXd> Model::get_points() const{
@@ -42,7 +51,7 @@ void Model::complete_points() {
      * lower this tolerance in order to preserve as many stored
      * function evaluations as possible.
      */
-    double tol_pivot = 0.24;
+    double tol_pivot = 0.20;
     Eigen::VectorXd centre_point = points_.at(0);
 
     /* scaling points to a ball of radius 1
@@ -70,31 +79,37 @@ void Model::complete_points() {
 
     int n_Polynomials = basis_.length();
     int n_points = points_.length();
+    QList<Polynomial> temp_basis = get_basis();
 
     for(int i=0; i<n_Polynomials; i++){
-        Polynomial cur_pol = basis_.at(i);
+        Polynomial cur_pol = temp_basis.at(i);
         double max_abs = 0.0;
         int max_abs_ind = -1;
-
+        std::cout << "hello 01 i = "<< i << std::endl;
         for (int j = i; j < n_points; ++j) {
+            std::cout << "hello 10 j = "<< j << std::endl;
+            //std::cout << "points_abs.at(j) = " << points_abs.at(j) << std::endl;
+            //std::cout << cur_pol.evaluate(points_abs.at(j)) << std::endl;
             if(fabs(cur_pol.evaluate(points_abs.at(j)))>max_abs){
                 max_abs = fabs(cur_pol.evaluate(points_abs.at(j)));
                 max_abs_ind = j;
             }
         }
 
-        /* If evaluation in pivot element is greater than treshold, switch elements
+        /* If evaluation in pivot element is greater than threshold, switch elements
          * and its associated function evaluations
          */
+        std::cout << "max_abs_ind = " << max_abs_ind << std::endl;
         if(max_abs>tol_pivot){
             points_abs.swap(i,max_abs_ind);
             fvalues_.swap(i,max_abs_ind);
-            std::cout << "YES sufficent pivot element aka. good point" << std::endl;
+            std::cout << "YES sufficient pivot element aka. good point" << std::endl;
         }
         else{
+            std::cout << "hello 04 i = "<< i << std::endl;
             //Find new point using alg proposed by Conn
-            std::cout << "NO sufficent pivot element aka. good point, use CONN alg" << std::endl;
-            Polynomial temp_poly_here = basis_.at(i);
+            std::cout << "NO sufficient pivot element aka. good point, use CONN alg" << std::endl;
+            Polynomial temp_poly_here = temp_basis.at(i);
             //std::cout << find_new_point(temp_poly_here) << std::endl;
             points_abs.append(find_new_point(temp_poly_here));
             points_abs.swap(i,points_abs.length()-1);
@@ -102,20 +117,20 @@ void Model::complete_points() {
             fvalues_.append(-1);
             fvalues_.swap(i,points_abs.length()-1);
 
-            std::cout << "new point found with value = " << temp_poly_here.evaluate(points_abs.at(i)) << std::endl;
+            //std::cout << "new point found with value = " << temp_poly_here.evaluate(points_abs.at(i)) << std::endl;
         }
 
-        Polynomial temp_i = basis_.at(i);
+        Polynomial temp_i = temp_basis.at(i);
         auto temp_point = points_abs.at(i);
 
 
         for (int j = i+1; j <n_points ; j++) {
-            Polynomial uj= basis_.at(j);
-            Polynomial ui = basis_.at(i);
+            Polynomial uj= temp_basis.at(j);
+            Polynomial ui = temp_basis.at(i);
             double temp_ratio = uj.evaluate(temp_point)/ui.evaluate(temp_point);
             ui.multiply(-1.0*temp_ratio);
             uj.add(ui);
-            basis_[j] = uj;
+            temp_basis[j] = uj;
         }
     }
 
@@ -125,7 +140,7 @@ void Model::complete_points() {
         points_scaled.append(centre_point + max_norm*points_abs.at(i));
     }
 
-    points_ = points_abs;
+    points_ = points_scaled;
 }
 
 Eigen::VectorXd Model::find_new_point(Polynomial poly) const {
@@ -141,6 +156,8 @@ Eigen::VectorXd Model::find_new_point(Polynomial poly) const {
     double max = 0.0;
     int max_coeff = -1;
     std::cout << x0 << std::endl;
+    std::cout << "poly.return_no_elements() = " << poly.return_no_elements() << std::endl;
+    std::cout << "poly.return_dimension() = " << poly.return_dimension() << std::endl;
     for (int i = 1; i < poly.return_no_elements(); ++i) {
         if(fabs(coeffs(i)) > max) {
             max = fabs(coeffs(i));
@@ -199,15 +216,29 @@ Eigen::VectorXd Model::find_new_point(Polynomial poly) const {
             best_value = fabs(poly.evaluate(points.at(i)));
         }
     }
-    std::cout << "Ended finding point" << std::endl << best_point << "and value is = " << best_value << std::endl;
+    //std::cout << "Ended finding point" << std::endl << best_point << "and value is = " << best_value << std::endl;
 
     return best_point;
 }
 
 void Model::calculate_model_coeffs() {
-    Eigen::MatrixXd M = Eigen::MatrixXd::Zero(basis_.length(),basis_.length());
-    Eigen::VectorXd y;
-    get_fvalues(); // Consider storing as eigen vector
+    Eigen::MatrixXd M = Eigen::MatrixXd::Zero(basis_.length() ,basis_.length());
+    Eigen::VectorXd y = Eigen::VectorXd::Zero(basis_.length());
+
+    std::cout << "hello there" << std::endl;
+    // Build Matrix M from basis and functions evaluations
+
+    for (int i = 0; i < basis_.length(); ++i) {
+        for (int j = 0; j < basis_.length(); ++j) {
+            M(i,j) = basis_.at(j).evaluate(points_.at(i));
+        }
+        y(i) = fvalues_.at(i);
+    }
+    std::cout << M << std::endl;
+
+    Eigen::VectorXd alpha = M.inverse()*y;
+    model_coeffs_ = alpha;
+
 }
 
 
