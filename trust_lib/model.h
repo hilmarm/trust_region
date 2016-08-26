@@ -47,6 +47,9 @@ public:
 
     void calculate_model_coeffs();
 
+    // Silly function for testing:
+    double silly_function(Eigen::VectorXd x);
+
 };
 
 

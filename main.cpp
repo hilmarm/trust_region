@@ -1,7 +1,7 @@
 #include <iostream>
 #include "region.h"
-#include "model.h"
-#include "polynomial.h"
+#include "trust_lib/model.h"
+#include "trust_lib/polynomial.h"
 #include <Eigen/Dense>
 #include <QList>
 
@@ -104,8 +104,12 @@ int main() {
 
     for (int j = 0; j < 6; ++j) {
         std::cout << "M(x_" << j << ") = " << model_approx.evaluate(test_model.get_points().at(j)) << std::endl;
-        std::cout << "y(x_" << j << ") = " << test_model.get_fvalues().at(j) << std::endl;
+        std::cout << "y(x_" << j << ") = " << test_model.silly_function(test_model.get_points().at(j)) << std::endl;
     }
+
+    Eigen::VectorXd testorino(2);
+    testorino << 0,2;
+    std::cout << "m(0,2) = " << model_approx.evaluate(testorino) << std::endl;
 
     return 0;
 }

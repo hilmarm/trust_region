@@ -113,8 +113,8 @@ void Model::complete_points() {
             //std::cout << find_new_point(temp_poly_here) << std::endl;
             points_abs.append(find_new_point(temp_poly_here));
             points_abs.swap(i,points_abs.length()-1);
-            // TODO: Here we need to evaluate the function of the new point and append it!
-            fvalues_.append(-1);
+            // TODO: Here we need to evaluate the function of the new (but UNSCALED) point and append it!
+            fvalues_.append(silly_function(points_abs.at(i)));
             fvalues_.swap(i,points_abs.length()-1);
 
             //std::cout << "new point found with value = " << temp_poly_here.evaluate(points_abs.at(i)) << std::endl;
@@ -232,13 +232,18 @@ void Model::calculate_model_coeffs() {
         for (int j = 0; j < basis_.length(); ++j) {
             M(i,j) = basis_.at(j).evaluate(points_.at(i));
         }
-        y(i) = fvalues_.at(i);
+        //y(i) = fvalues_.at(i);
+        y(i) = silly_function(points_.at(i));
     }
     std::cout << M << std::endl;
 
     Eigen::VectorXd alpha = M.inverse()*y;
     model_coeffs_ = alpha;
 
+}
+
+double Model::silly_function(Eigen::VectorXd x) {
+    return 3+ 4*x(0) + 3*x(1) + x(0)*x(0) + 5*x(1)*x(1) -1*x(0)*x(1);
 }
 
 

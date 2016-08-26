@@ -2,8 +2,47 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
+      <config projectName="trust_region_alg" targetName="ExperimentalCoverage" />
+      <config projectName="trust_region_alg" targetName="Experimental" />
       <config projectName="trust_region_alg" targetName="trust_region_alg_automoc" />
+      <config projectName="trust_region_alg" targetName="ContinuousTest" />
+      <config projectName="trust_region_alg" targetName="NightlyMemoryCheck" />
+      <config projectName="trust_region_alg" targetName="ExperimentalMemCheck" />
       <config projectName="trust_region_alg" targetName="trust_region_alg" />
+      <config projectName="trust_region_alg" targetName="trust_region" />
+      <config projectName="trust_region_alg" targetName="trustregion" />
+      <config projectName="trust_region_alg" targetName="test_simulation" />
+      <config projectName="trust_region_alg" targetName="calculate_shit" />
+      <config projectName="trust_region_alg" targetName="NightlyConfigure" />
+      <config projectName="trust_region_alg" targetName="NightlyTest" />
+      <config projectName="trust_region_alg" targetName="ContinuousBuild" />
+      <config projectName="trust_region_alg" targetName="ContinuousCoverage" />
+      <config projectName="trust_region_alg" targetName="Nightly" />
+      <config projectName="trust_region_alg" targetName="NightlySubmit" />
+      <config projectName="trust_region_alg" targetName="ContinuousUpdate" />
+      <config projectName="trust_region_alg" targetName="ExperimentalStart" />
+      <config projectName="trust_region_alg" targetName="NightlyBuild" />
+      <config projectName="trust_region_alg" targetName="NightlyCoverage" />
+      <config projectName="trust_region_alg" targetName="trust" />
+      <config projectName="trust_region_alg" targetName="NightlyMemCheck" />
+      <config projectName="trust_region_alg" targetName="Continuous" />
+      <config projectName="trust_region_alg" targetName="ExperimentalSubmit" />
+      <config projectName="trust_region_alg" targetName="ExperimentalConfigure" />
+      <config projectName="trust_region_alg" targetName="ExperimentalTest" />
+      <config projectName="trust_region_alg" targetName="test_trust" />
+      <config projectName="trust_region_lib" targetName="trust_region_lib" />
+      <config projectName="trust_region_alg" targetName="ContinuousConfigure" />
+      <config projectName="trust_region_alg" targetName="ContinuousStart" />
+      <config projectName="trust_region_alg" targetName="NightlyUpdate" />
+      <config projectName="trust_region_alg" targetName="ContinuousSubmit" />
+      <config projectName="trust_region_alg" targetName="TrustLib" />
+      <config projectName="trust_region_lib" targetName="trus" />
+      <config projectName="trust_region_alg" targetName="ExperimentalUpdate" />
+      <config projectName="trust_region_alg" targetName="test_model" />
+      <config projectName="trust_region_alg" targetName="ExperimentalBuild" />
+      <config projectName="trust_region_alg" targetName="NightlyStart" />
+      <config projectName="trust_region_alg" targetName="trusty" />
+      <config projectName="trust_region_alg" targetName="ContinuousMemCheck" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -31,30 +70,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="216">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trust_lib/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_model.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_model.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+              <folding>
+                <element signature="e#40#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="polynomial.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polynomial.cpp">
+        <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-216">
               <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
@@ -62,7 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="polynomial.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polynomial.h">
+        <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
@@ -72,20 +133,20 @@
         </entry>
       </file>
       <file leaf-file-name="model.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.cpp">
+        <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="232" column="58" selection-start-line="232" selection-start-column="58" selection-end-line="232" selection-end-column="58" />
+            <state relative-caret-position="573">
+              <caret line="245" column="58" selection-start-line="245" selection-start-column="58" selection-end-line="245" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="model.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.h">
+        <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,16 +162,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="region.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/region.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -119,12 +170,16 @@
         <option value="$PROJECT_DIR$/region.cpp" />
         <option value="$PROJECT_DIR$/region.h" />
         <option value="$PROJECT_DIR$/cmake/FindEigen.cmake" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/polynomial.h" />
         <option value="$PROJECT_DIR$/polynomial.cpp" />
         <option value="$PROJECT_DIR$/model.h" />
         <option value="$PROJECT_DIR$/model.cpp" />
+        <option value="$PROJECT_DIR$/test_trust_region.cpp" />
+        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/trust_lib/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/tests/test_model.cpp" />
       </list>
     </option>
   </component>
@@ -135,7 +190,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
+    <option name="width" value="1920" />
     <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -164,7 +219,52 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trust_region" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -174,7 +274,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.trust_region_alg">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trust_lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.test_trust">
+    <configuration default="false" name="TrustRegionTest.Constructor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_trust" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_trust" TEST_CLASS="TrustRegionTest" TEST_METHOD="Constructor" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TrustRegionTest.bogofail" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_trust" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_trust" TEST_CLASS="TrustRegionTest" TEST_METHOD="bogofail" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in TrustRegionTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_trust" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_trust" TEST_CLASS="TrustRegionTest" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trust_region_alg" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -336,7 +453,7 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="trust_region_alg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trust_region_alg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="trust_region_alg">
+    <configuration default="false" name="trust_region_alg" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trust_region_alg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="trust_region_alg">
       <envs />
       <method />
     </configuration>
@@ -348,11 +465,216 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ContinuousUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalSubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="ExperimentalUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyBuild">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyConfigure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyCoverage">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyMemCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyStart">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlySubmit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyTest">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="NightlyUpdate">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_model" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_model">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_simulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_simulation">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trust" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trust" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trustregion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trustregion" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trusty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trusty" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trust_region" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="trust_region" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="calculate_shit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="calculate_shit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="calculate_shit">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_lib" TARGET_NAME="trus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_lib" RUN_TARGET_NAME="trus">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="trust_region_lib" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="calculate_shit" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TrustLib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="TrustLib" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_trust" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trust_region_alg" TARGET_NAME="test_trust" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trust_region_alg" RUN_TARGET_NAME="test_trust" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <list size="45">
       <item index="0" class="java.lang.String" itemvalue="Application.trust_region_alg" />
       <item index="1" class="java.lang.String" itemvalue="Application.trust_region_alg_automoc" />
       <item index="2" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Continuous" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ContinuousBuild" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ContinuousConfigure" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ContinuousCoverage" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ContinuousMemCheck" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ContinuousStart" />
+      <item index="9" class="java.lang.String" itemvalue="Application.ContinuousSubmit" />
+      <item index="10" class="java.lang.String" itemvalue="Application.ContinuousTest" />
+      <item index="11" class="java.lang.String" itemvalue="Application.ContinuousUpdate" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Experimental" />
+      <item index="13" class="java.lang.String" itemvalue="Application.ExperimentalBuild" />
+      <item index="14" class="java.lang.String" itemvalue="Application.ExperimentalConfigure" />
+      <item index="15" class="java.lang.String" itemvalue="Application.ExperimentalCoverage" />
+      <item index="16" class="java.lang.String" itemvalue="Application.ExperimentalMemCheck" />
+      <item index="17" class="java.lang.String" itemvalue="Application.ExperimentalStart" />
+      <item index="18" class="java.lang.String" itemvalue="Application.ExperimentalSubmit" />
+      <item index="19" class="java.lang.String" itemvalue="Application.ExperimentalTest" />
+      <item index="20" class="java.lang.String" itemvalue="Application.ExperimentalUpdate" />
+      <item index="21" class="java.lang.String" itemvalue="Application.Nightly" />
+      <item index="22" class="java.lang.String" itemvalue="Application.NightlyBuild" />
+      <item index="23" class="java.lang.String" itemvalue="Application.NightlyConfigure" />
+      <item index="24" class="java.lang.String" itemvalue="Application.NightlyCoverage" />
+      <item index="25" class="java.lang.String" itemvalue="Application.NightlyMemCheck" />
+      <item index="26" class="java.lang.String" itemvalue="Application.NightlyMemoryCheck" />
+      <item index="27" class="java.lang.String" itemvalue="Application.NightlyStart" />
+      <item index="28" class="java.lang.String" itemvalue="Application.NightlySubmit" />
+      <item index="29" class="java.lang.String" itemvalue="Application.NightlyTest" />
+      <item index="30" class="java.lang.String" itemvalue="Application.NightlyUpdate" />
+      <item index="31" class="java.lang.String" itemvalue="Application.test_model" />
+      <item index="32" class="java.lang.String" itemvalue="Application.test_simulation" />
+      <item index="33" class="java.lang.String" itemvalue="Application.trust" />
+      <item index="34" class="java.lang.String" itemvalue="Application.trustregion" />
+      <item index="35" class="java.lang.String" itemvalue="Application.trusty" />
+      <item index="36" class="java.lang.String" itemvalue="Application.trust_region" />
+      <item index="37" class="java.lang.String" itemvalue="Application.calculate_shit" />
+      <item index="38" class="java.lang.String" itemvalue="Application.trus" />
+      <item index="39" class="java.lang.String" itemvalue="Application.trust_region_lib" />
+      <item index="40" class="java.lang.String" itemvalue="Application.TrustLib" />
+      <item index="41" class="java.lang.String" itemvalue="Google Test.test_trust" />
+      <item index="42" class="java.lang.String" itemvalue="Google Test.TrustRegionTest.Constructor" />
+      <item index="43" class="java.lang.String" itemvalue="Google Test.TrustRegionTest.bogofail" />
+      <item index="44" class="java.lang.String" itemvalue="Google Test.All in TrustRegionTest" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Google Test.All in TrustRegionTest" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.TrustRegionTest.bogofail" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.TrustRegionTest.Constructor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -365,24 +687,57 @@
       <option name="presentableId" value="Default" />
       <updated>1467290349342</updated>
       <workItem from="1471600581735" duration="17595000" />
-      <workItem from="1471958598229" duration="6877000" />
+      <workItem from="1471958598229" duration="23858000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_TrustRegionTest - 2016.08.26 at 14h 42m 02s.xml">
+      <configuration name="All in TrustRegionTest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TrustRegionTest_bogofail - 2016.08.26 at 14h 41m 53s.xml">
+      <configuration name="TrustRegionTest.bogofail" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 06m 47s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 06m 56s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 07m 18s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 08m 43s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 10m 55s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 12m 10s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 12m 18s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="test_trust - 2016.08.26 at 16h 12m 34s.xml">
+      <configuration name="test_trust" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24472000" />
+    <option name="totallyTimeSpent" value="41453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1178" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1178" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14613779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14613779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.321659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33824885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33824885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -392,7 +747,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -429,52 +783,12 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
@@ -515,7 +829,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
@@ -523,7 +837,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
@@ -531,7 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -539,7 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
@@ -580,7 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
@@ -588,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
@@ -596,7 +910,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -604,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
@@ -645,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -653,7 +967,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="82" />
@@ -694,7 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -702,7 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
@@ -727,14 +1041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/RpolyPlusPlus/find_polynomial_roots_jenkins_traub.h" />
     <entry file="file://$PROJECT_DIR$/region.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,6 +1057,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/region.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -759,15 +1073,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.cpp">
+    <entry file="file://$PROJECT_DIR$/tests/test_model.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polynomial.h">
+    <entry file="file://$PROJECT_DIR$/test_trust_region.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="245" column="58" selection-start-line="245" selection-start-column="58" selection-end-line="245" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trust_lib/polynomial.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
@@ -775,26 +1113,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.h">
+    <entry file="file://$PROJECT_DIR$/trust_lib/model.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="232" column="58" selection-start-line="232" selection-start-column="58" selection-end-line="232" selection-end-column="58" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_model.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trust_lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
