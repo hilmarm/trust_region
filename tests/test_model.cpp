@@ -122,6 +122,8 @@ TEST_F(ModelTest, poly_values) {
 }
 
     TEST_F(ModelTest, gradient_values) {
+
+        // 2-dimensional polynomials
         Eigen::VectorXd pol_0(6), pol_1(6), pol_2(6), grad_0(2), grad_1(2), grad_2(2), point(2);
         pol_0 << 499,0,0,4,0,0;
         pol_1 << -2,-3,43,0,0,0;
@@ -136,9 +138,23 @@ TEST_F(ModelTest, poly_values) {
         Polynomial poly_1 = Polynomial(2,pol_1);
         Polynomial poly_2 = Polynomial(2,pol_2);
 
+        // 3-dimensional polynomial
+        Eigen::VectorXd pol_3(10), pol_4(10), grad_3(3), grad_4(3), point_2(3);
+        pol_3 << 499,0,0,0,4,0,0,0,0,0;
+        pol_4 << 0,1,0,0,0,7,0,0,-12,0;
+        grad_3 << 4,0,0;
+        grad_4 << -11,7,-12;
+        point_2 << 1,1,1;
+
+        Polynomial poly_3 = Polynomial(3,pol_3);
+        Polynomial poly_4 = Polynomial(3,pol_4);
+
         EXPECT_TRUE(poly_0.evaluateGradient(point)==grad_0);
         EXPECT_TRUE(poly_1.evaluateGradient(point)==grad_1);
         EXPECT_TRUE(poly_2.evaluateGradient(point)==grad_2);
+
+        EXPECT_TRUE(poly_3.evaluateGradient(point_2)==grad_3);
+        EXPECT_TRUE(poly_4.evaluateGradient(point_2)==grad_4);
     }
 
 }
