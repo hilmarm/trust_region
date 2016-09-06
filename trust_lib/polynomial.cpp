@@ -75,3 +75,27 @@ int Polynomial::return_dimension() const{
 Eigen::VectorXd Polynomial::return_coeffs() const{
     return coeffs_;
 }
+
+Eigen::VectorXd Polynomial::evaluateGradient(Eigen::VectorXd point) {
+
+    /* We use the taylor expansion of a function and the
+     * fact that our polynomial's third (and higher) derivative
+     * is zero, so the truncation error of our approximaton is
+     * zero as well and thus the approximation is actually an
+     * exact evaluation.
+     */
+
+    Eigen::VectorXd grad(dimension_);
+    for (int i = 0; i < dimension_; ++i) {
+
+        // We could choose any length but unit length is simple
+        Eigen::VectorXd unit = Eigen::VectorXd::Zero(dimension_);
+        unit(i) = 1;
+
+        // Central difference approximation
+        double grad_value_i = 0.5*(evaluate(point+unit)-evaluate(point-unit));
+        grad(i) = grad_value_i;
+    }
+
+    return grad;
+}
